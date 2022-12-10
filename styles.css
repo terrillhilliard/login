@@ -10,16 +10,23 @@ body{
 	background-color: #102770;
 	overflow-x: hidden;
 }
+
+
 a {
 	cursor: pointer;
   transition: all 200ms linear;
 }
+
+
 a:hover {
 	text-decoration: none;
 }
+
+
 .link {
   color: MidnightBlue;
-  font-weight: bold;
+  font-weight: bolder;
+
 }
 
 p {
@@ -43,6 +50,7 @@ h6 span{
   display: block;
   background-color: #ABD9FF;
 }
+
 .full-height{
   min-height: 100vh;
 }
@@ -285,4 +293,13 @@ h6 span{
 	height: 26px;
 	width: auto;
 	display: block;
+}
+
+.top {
+		background-color: #ABD9FF;
+	  color: MidnightBlue;
+	  font-size: 70px;
+	  font-family: 'Sacramento', cursive;
+		padding-bottom: 7.5%;
+		font-weight: bold;
 }
