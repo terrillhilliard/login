@@ -4,8 +4,8 @@ const request = require('request');
 const app = express();
 const https = require("https");
 
-const listid = "2628650517";
-const api = "b66a05249adfe3abf7d103a9b31ce496-us8";
+const list_id = list_id;
+const api = apikey;
 
 
 app.use(express.static("public"));
@@ -42,11 +42,11 @@ app.post("/", function(req, res) {
 
       const jsonData = JSON.stringify(data);
 
-      const url = "https://us8.api.mailchimp.com/3.0/lists/2628650517"
+      const url = "https://us8.api.mailchimp.com/3.0/lists/$list_id)"
 
       const options = {
         method: "POST",
-        auth: "terrillhilliard96@gmail.com:b66a05249adfe3abf7d103a9b31ce496-us8"
+        auth: "$(username):$(api)
       }
 
 
